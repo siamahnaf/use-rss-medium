@@ -1,0 +1,46 @@
+{
+  "name": "use-rss-medium",
+  "version": "2.0.0",
+  "description": "A npm package to format medium rss post articles into json formate in a react application",
+  "homepage": "https://github.com/siamahnaf/use-rss-medium",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rimraf dist && npm run build:esm && npm run build:cjs",
+    "build:esm": "tsc",
+    "build:cjs": "tsc --module CommonJS --outDir dist/cjs"
+  },
+  "author": {
+    "name": "Siam Ahnaf",
+    "email": "mail@siamahnaf.com",
+    "url": "https://www.siamahnaf.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "react-hook",
+    "hook",
+    "medium",
+    "medium-api",
+    "rss"
+  ],
+  "repository": {
+    "type": "git",
+    "directory": "https://github.com/siamahnaf/use-rss-medium",
+    "url": "https://github.com/siamahnaf/use-rss-medium"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.3",
+    "@types/react": "^18.2.31",
+    "@types/react-dom": "^18.2.14",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "swr": "^2.2.4"
+  }
+}
