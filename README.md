@@ -33,4 +33,4 @@ const articles = useMedium("cabbageweb", {
   proxy: "https://my-custom-proxy.com/"
 });
 ```
-The above configuration will result in the following endpoint: `https://my-custom-proxy.com/https://medium.com/feed/@cabbageweb`.
+The above configuration will result in the following endpoint: `https://my-custom-proxy.com?url=https://medium.com/feed/@cabbageweb`.

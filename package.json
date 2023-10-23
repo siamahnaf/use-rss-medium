@@ -1,6 +1,6 @@
 {
   "name": "use-rss-medium",
-  "version": "2.0.0",
+  "version": "2.0.6",
   "description": "A npm package to format medium rss post articles into json formate in a react application",
   "homepage": "https://github.com/siamahnaf/use-rss-medium",
   "main": "dist/cjs/index.js",
@@ -27,6 +27,7 @@
     "medium-api",
     "rss"
   ],
+  "proxy": "https://thingproxy.freeboard.io",
   "repository": {
     "type": "git",
     "directory": "https://github.com/siamahnaf/use-rss-medium",

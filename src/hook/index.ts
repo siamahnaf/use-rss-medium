@@ -13,7 +13,7 @@ export function useMedium(
   config?: { proxy?: string },
 ): State {
   const endpoint = config?.proxy
-    ? `${config.proxy}https://medium.com/feed/@${username}`
+    ? `${config.proxy}?url=https://medium.com/feed/@${username}`
     : `https://thingproxy.freeboard.io/fetch/https://medium.com/feed/@${username}`;
 
   const { data: feed, error } = useSWR(endpoint, fetcher, {
