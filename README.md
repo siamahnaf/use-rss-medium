@@ -1,3 +1,5 @@
+<img src="https://res.cloudinary.com/dbjrx698c/image/upload/v1704611347/logo_w4vxp0.png" width="100" height="100">
+
 ## use-rss-medium
 Get your latest medium article in react. A npm package to format medium rss post articles into json formate in a react application.
 
